@@ -1,0 +1,103 @@
+body {
+    color: white;
+    background: #4A4A4A;
+    margin: 0px;
+    font-family: "Roboto Condensed", sans-serif;;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+header {
+    background-color: white; /* Fundo preto */
+    padding: 10px 20px; /* Espaçamento interno */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    flex: 0 0 auto;
+}
+
+.logo{
+    max-height: 50px;
+    width: auto;
+}
+/* Estilo para o menu de navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.main-banner {
+    background: url('../img/banner.jpg') no-repeat;
+    background-size: cover; 
+    background-position: 0 55%;
+    position: relative;
+    margin-top: 100px;
+
+
+}
+
+
+
+
+
+
+.chamada {
+    background: #7D8C65;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.categoria h2 {
+    color: #FFDB58;
+}
+
+
